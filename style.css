@@ -1,0 +1,36 @@
+<style>
+    /* Animaciones para el campo de respuesta */
+    #respuestaInput {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.5em;
+        border: 3px solid #f76c6c;
+        border-radius: 10px;
+        outline: none;
+        transition: box-shadow 0.3s ease, border-color 0.3s ease;
+        box-shadow: 0 0 15px rgba(247, 108, 108, 0.5);
+    }
+
+    #respuestaInput:focus {
+        border-color: #45a049;
+        box-shadow: 0 0 20px rgba(69, 160, 73, 0.8);
+    }
+
+    /* Botón de enviar destacado */
+    .popup button {
+        padding: 15px 30px;
+        font-size: 1.2em;
+        border-radius: 12px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .popup button:hover {
+        background-color: #45a049;
+        transform: scale(1.1);
+    }
+</style>
+
